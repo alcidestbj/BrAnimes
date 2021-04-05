@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-    width: 960px;
+    width: 960px;    
     margin: auto;
 }
 
@@ -44,13 +44,14 @@ header nav{
 }
 
 header nav a{
-    color: #ffffff;
     text-decoration: none;
-    text-transform: uppercase;
+    color: #ffffff;
     padding: 5px;
+    text-transform: uppercase;
 }
 
-#direita nav a:hover{
-    background-color: #ff0;
-    color: #000;
+header nav a:hover{
+    background-color: #ffff00;
+    color: #000000;
 }
+
