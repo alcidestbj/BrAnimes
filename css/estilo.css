@@ -55,3 +55,179 @@ header nav a:hover{
     color: #000000;
 }
 
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer nav a:hover{
+    color: #ffff00;
+    text-decoration: underline overline;
+}
+
+main{
+    margin: auto;
+    width: 960px;
+    min-height: 800px;
+}
+
+main h1{
+    text-align: center;
+}
+
+.texto_banner{
+    font-size: 30pt;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#assistir, #assinar{
+    text-decoration: none;    
+    display: block;
+    width: 300px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 18pt;
+    margin: auto;
+    line-height: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#assistir{
+    background-color: #0e3b5f;
+}
+
+#assinar{
+    background-color: #6b0b0b;
+}
+
+.destaque{
+    background-color: #36b1d6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+.destaque div{
+    display: flex;
+}
+
+.destaque figure img{
+    width: 150px;
+}
+
+.programacao{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.programacao h3{
+    width: 100%;
+}
+
+.programacao article img{
+    width: 150px;
+}
+
+.programacao article{
+    width: 50%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.programacao article section{
+    padding: 30px;
+}
+
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#galeria img{
+    width: 200px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px #f00;
+    border: 4px dotted #0f0;
+}
+
+#destaque_plus{
+    display: flex;
+}
+
+#destaque_plus p{
+    text-align: center;
+}
+
+.planos{
+    width: 300px;
+    text-align: center;
+    border: 2px solid #23b310;
+    margin: auto;
+    padding: 50px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.planos ul{
+    text-align: left;
+}
+
+.planos p span{
+    font-size: 22pt;
+    color: #ff0000;
+}
+
+#contato{
+    display: flex;
+    justify-content: space-around;
+}
+
+input, textarea{
+    display: block;
+    width: 300px;
+    background-color: #cccccc;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+#contato button{
+    font-size: 18pt;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #8054d1;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
